@@ -1,0 +1,109 @@
+
+
+.maindiv {
+   background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+
+  .signin {
+     background-color: white;
+  width: fit-content;
+    flex-direction: column;
+    padding: 10px 20px;
+
+    .heading {
+      margin-top: 10px;
+      text-align: center;
+      margin-bottom: 25px;
+      font-weight: 400;
+    }
+    .form-group input:focus {
+      box-shadow: none;
+    }
+    .form-group input {
+      border: none;
+      border-bottom: 1px solid lightgray;
+      outline: none;
+      width: 400px;
+    }
+    .form-check {
+      margin-top: 25px;
+      float: left;
+      margin-left: 5px;
+    }
+    .forgotPwd {
+      margin-top: 25px;
+      float: right;
+      margin-right: 5px;
+      color: gray;
+
+      .forgottext {
+        text-decoration: none;
+        color: gray;
+        margin-left: 7px;
+      }
+    }
+    .loginbtn {
+      margin-top: 25px;
+      width: 100%;
+      border-radius: 50px;
+      padding: 10px 0px;
+      font-size: 21px;
+    }
+    .signinFooter {
+      text-align: center;
+      margin-top: 35px;
+      margin-bottom: 15px;
+
+      .footerLink {
+        text-decoration: none;
+      }
+    }
+    .GoogleLogin {
+      margin-top: 70px;
+      text-align: center;
+    }
+  }
+}
+.maindiv2 {
+  background-color: white;
+  width: fit-content;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+
+  @keyframes example {
+    0% {
+      left: 0px;
+      top: 230px;
+    }
+
+    100% {
+      left: 0px;
+      top: 0px;
+    }
+  }
+}
+.contant {
+  padding: 20px;
+
+  .forgotInput input {
+    width: 400px;
+    outline: none;
+    margin: 20px 0px;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+  }
+  .resetBtn {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 7px 0px;
+    font-size: 19px;
+    background-color: #fa7953;
+    border: none;
+    color: white;
+  }
+}
