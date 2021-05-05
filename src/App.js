@@ -14,13 +14,14 @@ import Minimal from "./Components/Minimal";
 import { connect } from "react-redux";
 import AllUsers from "./Components/AllUsers";
 import UpdateData from "./Components/UpdateData";
+import React,{useEffect} from 'react';
 
 function App(props) {
-
+ console.log(props.data.userData);
   return (
     <div className="App">
       <Sidebar />
-      <Navbar />
+      {props.data.userData.length > 0 && <Navbar />}
 
       <Switch>
         <Route exact path="/" component={SignInContainer} />

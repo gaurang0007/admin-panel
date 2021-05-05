@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect} from "react";
 import { GoogleLogin } from "react-google-login";
 import { NavLink, Redirect } from "react-router-dom";
 
@@ -6,12 +6,20 @@ const SignIn = (props) => {
   // console.log(props.data.logIn);
   // const [logIn, setlogIn] = useState(false)
 
+  console.log(props.data)
   const responseGoogle = (response) => {
-    console.log(response.profileObj.name);
     props.userData({
       name: response.profileObj.name,
       profile: response.profileObj.imageUrl,
     });
+
+    // const userInfo = {
+    //   name: response.profileObj.imageUrl,
+    //   profile : response.profileObj.name,
+    // };
+    // localStorage.setItem('userInfo', JSON.stringify(userInfo))
+
+
 
   };
 

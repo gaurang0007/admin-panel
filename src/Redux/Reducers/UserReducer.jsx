@@ -10,12 +10,12 @@ import {
 const initialSatate = {
   userData: [],
   allData: [],
-  // updateData: [],
+  updateData: [],
 };
 export const userReducer = (state = initialSatate, action) => {
   switch (action.type) {
     case USER_DATA:
-      return { ...state, userData: [action.data] };
+      return { ...state, userData: [action.data]};
     case ADD_USER:
       return { ...state, allData: [...state.allData, action.data] };
     case DELETE_USER:

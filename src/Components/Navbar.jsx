@@ -9,18 +9,22 @@ const Navbar = () => {
   const toggleBtn = () => {
     if (Toggle) {
       document.getElementById("mySidebar").style.width = "250px";
-      document.getElementById("main").style.marginLeft = "250px";
-      // document.getElementById("home").style.marginLeft = "250px";
-      document.getElementById("minimal").style.marginLeft = "250px";
-     
+      if (window.innerWidth > 1000) {
+        document.getElementById("minimal").style.marginLeft = "250px";
+      }
+       if (window.innerWidth > 500) {
+         document.getElementById("main").style.marginLeft = "250px";
+       }
       setToggle(false);
     } else {
       setToggle(true);
       document.getElementById("mySidebar").style.width = "0";
-      document.getElementById("main").style.marginLeft = "0";
-      // document.getElementById("home").style.marginLeft = "0";
-      document.getElementById("minimal").style.marginLeft = "0";
-   
+ if (window.innerWidth > 1000) {
+   document.getElementById("minimal").style.marginLeft = "0";
+      }
+       if (window.innerWidth > 500) {
+         document.getElementById("main").style.marginLeft = "0";
+       }
     }
   };
   return (
