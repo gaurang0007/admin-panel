@@ -5,16 +5,16 @@ import img3 from "../assets/img3.png";
 const Chat = () => {
     return (
       <div className="col-md-4">
-        <div class="card" style={{ borderRadius: "0px", border: "none" }}>
-          <div class="card-body">
+        <div className="card" style={{ borderRadius: "0px", border: "none" }}>
+          <div className="card-body">
             <h5
-              class="card-title"
+              className="card-title"
               style={{ fontSize: "18px", fontWeight: "500" }}
             >
               CHAT
             </h5>
             <div
-              class="chat-box ps ps--theme_default ps--active-y mt-4"
+              className="chat-box ps ps--theme_default ps--active-y mt-4"
               id="chat"
               style={{
                 height: "327px",
@@ -23,18 +23,18 @@ const Chat = () => {
               }}
             >
               <ul
-                class="chat-list"
+                className="chat-list"
                 style={{ listStyleType: "none", paddingLeft: "0px" }}
               >
                 <li className="d-flex">
-                  <div class="chat-img">
+                  <div className="chat-img">
                     <img
                       src={img1}
                       alt="user"
                       style={{ width: "50px", borderRadius: "50%" }}
                     />
                   </div>
-                  <div class="chat-content ml-3">
+                  <div className="chat-content ml-3">
                     <h5
                       style={{
                         color: "#6c757d",
@@ -57,7 +57,7 @@ const Chat = () => {
                       type setting industry.
                     </div>
                     <div
-                      class="chat-time"
+                      className="chat-time"
                       style={{
                         fontSize: "11px",
                         color: "#6c757d",
@@ -69,14 +69,14 @@ const Chat = () => {
                   </div>
                 </li>
                 <li className="d-flex mt-4">
-                  <div class="chat-img">
+                  <div className="chat-img">
                     <img
                       src={img2}
                       alt="user"
                       style={{ width: "50px", borderRadius: "50%" }}
                     />
                   </div>
-                  <div class="chat-content ml-3">
+                  <div className="chat-content ml-3">
                     <h5
                       style={{
                         color: "#6c757d",
@@ -87,7 +87,7 @@ const Chat = () => {
                       Bianca Doe
                     </h5>
                     <div
-                      class="box bg-light-info"
+                      className="box bg-light-info"
                       style={{
                         color: "#343a40",
                         background: "#f8f9fa",
@@ -99,7 +99,7 @@ const Chat = () => {
                       It’s Great opportunity to work.
                     </div>
                     <div
-                      class="chat-time"
+                      className="chat-time"
                       style={{
                         fontSize: "11px",
                         color: "#6c757d",
@@ -110,13 +110,13 @@ const Chat = () => {
                     </div>
                   </div>
                 </li>
-                <li class="odd mt-4">
+                <li className="odd mt-4">
                   <div
-                    class="chat-content"
+                    className="chat-content"
                     style={{ marginLeft: "auto", width: "230px" }}
                   >
                     <div
-                      class="box bg-light-inverse"
+                      className="box bg-light-inverse"
                       style={{
                         padding: "10px",
                         borderRadius: "0.25rem",
@@ -128,7 +128,7 @@ const Chat = () => {
                     </div>
                     <br />
                     <div
-                      class="chat-time"
+                      className="chat-time"
                       style={{
                         fontSize: "11px",
                         color: "#6c757d",
@@ -139,13 +139,13 @@ const Chat = () => {
                     </div>
                   </div>
                 </li>
-                <li class="odd mt-4">
+                <li className="odd mt-4">
                   <div
-                    class="chat-content"
+                    className="chat-content"
                     style={{ marginLeft: "auto", width: "270px" }}
                   >
                     <div
-                      class="box bg-light-inverse"
+                      className="box bg-light-inverse"
                       style={{
                         padding: "10px",
                         borderRadius: "0.25rem",
@@ -157,7 +157,7 @@ const Chat = () => {
                     </div>
                     <br />
                     <div
-                      class="chat-time"
+                      className="chat-time"
                       style={{
                         fontSize: "11px",
                         color: "#6c757d",
@@ -169,14 +169,14 @@ const Chat = () => {
                   </div>
                 </li>
                 <li className="d-flex mt-4" style={{ marginBottom: "-50px" }}>
-                  <div class="chat-img">
+                  <div className="chat-img">
                     <img
                       src={img3}
                       alt="user"
                       style={{ width: "50px", borderRadius: "50%" }}
                     />
                   </div>
-                  <div class="chat-content ml-3">
+                  <div className="chat-content ml-3">
                     <h5
                       style={{
                         color: "#6c757d",
@@ -187,7 +187,7 @@ const Chat = () => {
                       Angelina Rhodes
                     </h5>
                     <div
-                      class="box bg-light-info"
+                      className="box bg-light-info"
                       style={{
                         color: "#343a40",
                         background: "#f8f9fa",
@@ -199,7 +199,7 @@ const Chat = () => {
                       Well we have good budget for the project
                     </div>
                     <div
-                      class="chat-time"
+                      className="chat-time"
                       style={{
                         fontSize: "11px",
                         color: "#6c757d",
@@ -213,21 +213,21 @@ const Chat = () => {
               </ul>
             </div>
           </div>
-          <div class="card-body border-top">
-            <div class="row">
-              <div class="col-9">
+          <div className="card-body border-top">
+            <div className="row">
+              <div className="col-9">
                 <textarea
                   placeholder="Type your message here"
-                  class="form-control border-0"
+                  className="form-control border-0"
                 ></textarea>
               </div>
-              <div class="col-3 text-right">
+              <div className="col-3 text-right">
                 <button
                   type="button"
-                  class="btn btn-info btn-lg sendbtn"
+                  className="btn btn-info btn-lg sendbtn"
                   style={{ borderRadius: "50%", height: "55px", width: "55px" }}
                 >
-                  <i class="fa fa-paper-plane"></i>
+                  <i className="fa fa-paper-plane"></i>
                 </button>
               </div>
             </div>

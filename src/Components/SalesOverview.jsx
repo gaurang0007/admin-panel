@@ -7,16 +7,16 @@ const SalesOverview = () => {
           <div className="card-body ">
             <div className="d-flex">
               <div>
-                <h5 class="card-title">Sales Overview</h5>
+                <h5 className="card-title">Sales Overview</h5>
                 <h6
-                  class="card-subtitle text-muted"
+                  className="card-subtitle text-muted"
                   style={{ fontWeight: "normal" }}
                 >
                   Check the monthly sales{" "}
                 </h6>
               </div>
 
-              <div class="ml-auto selectDropdown">
+              <div className="ml-auto selectDropdown">
                 <select className="form-control b-0 selectDropdown">
                   <option className="selectDropdown">January</option>
                   <option value="1">February</option>
@@ -28,31 +28,31 @@ const SalesOverview = () => {
           </div>
           <div className="card-body">
             <div
-              class="row"
+              className="row"
               style={{ backgroundColor: "#F8F9FA", margin: "0px -20px" }}
             >
-              <div class="col-6">
+              <div className="col-6">
                 <h3 style={{ fontWeight: "350" }}>January 2021</h3>
                 <h5
-                  class="font-light m-t-0"
+                  className="font-light m-t-0"
                   style={{ fontWeight: "350", fontSize: "17px" }}
                 >
                   Report for this month
                 </h5>
               </div>
-              <div class="col-6 align-self-center display-6 text-right">
-                <h2 class="text-success" style={{ fontWeight: "400" }}>
+              <div className="col-6 align-self-center display-6 text-right">
+                <h2 className="text-success" style={{ fontWeight: "400" }}>
                   $3,690
                 </h2>
               </div>
             </div>
           </div>
-          <div class="table-responsive">
-            <table class="table table-hover no-wrap">
+          <div className="table-responsive">
+            <table className="table table-hover no-wrap">
               <thead>
                 <tr>
                   <th
-                    class="text-center"
+                    className="text-center"
                     style={{ fontWeight: "500", fontSize: "15px" }}
                   >
                     #
@@ -67,91 +67,91 @@ const SalesOverview = () => {
               </thead>
               <tbody style={{ fontSize: "15px" }}>
                 <tr>
-                  <td class="text-center">1</td>
-                  <td class="txt-oflo">Elite admin</td>
+                  <td className="text-center">1</td>
+                  <td className="txt-oflo">Elite admin</td>
                   <td>
-                    <span class="badge badge-success badge-pill">sale</span>{" "}
+                    <span className="badge badge-success badge-pill">sale</span>{" "}
                   </td>
-                  <td class="txt-oflo">April 18, 2017</td>
+                  <td className="txt-oflo">April 18, 2017</td>
                   <td>
-                    <span class="text-success">$24</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="text-center">2</td>
-                  <td class="txt-oflo">Real Homes</td>
-                  <td>
-                    <span class="badge badge-info badge-pill">extended</span>
-                  </td>
-                  <td class="txt-oflo">April 19, 2017</td>
-                  <td>
-                    <span class="text-info">$1250</span>
+                    <span className="text-success">$24</span>
                   </td>
                 </tr>
                 <tr>
-                  <td class="text-center">3</td>
-                  <td class="txt-oflo">Ample Admin</td>
+                  <td className="text-center">2</td>
+                  <td className="txt-oflo">Real Homes</td>
                   <td>
-                    <span class="badge badge-info badge-pill">extended</span>
+                    <span className="badge badge-info badge-pill">extended</span>
                   </td>
-                  <td class="txt-oflo">April 19, 2017</td>
+                  <td className="txt-oflo">April 19, 2017</td>
                   <td>
-                    <span class="text-info">$1250</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="text-center">4</td>
-                  <td class="txt-oflo">Medical Pro</td>
-                  <td>
-                    <span class="badge badge-danger badge-pill">tax</span>
-                  </td>
-                  <td class="txt-oflo">April 20, 2017</td>
-                  <td>
-                    <span class="text-danger">-$24</span>
+                    <span className="text-info">$1250</span>
                   </td>
                 </tr>
                 <tr>
-                  <td class="text-center">5</td>
-                  <td class="txt-oflo">Hosting press html</td>
+                  <td className="text-center">3</td>
+                  <td className="txt-oflo">Ample Admin</td>
                   <td>
-                    <span class="badge badge-success badge-pill">sale</span>
+                    <span className="badge badge-info badge-pill">extended</span>
                   </td>
-                  <td class="txt-oflo">April 21, 2017</td>
+                  <td className="txt-oflo">April 19, 2017</td>
                   <td>
-                    <span class="text-success">$24</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="text-center">6</td>
-                  <td class="txt-oflo">Digital Agency PSD</td>
-                  <td>
-                    <span class="badge badge-success badge-pill">sale</span>{" "}
-                  </td>
-                  <td class="txt-oflo">April 23, 2017</td>
-                  <td>
-                    <span class="text-danger">-$14</span>
+                    <span className="text-info">$1250</span>
                   </td>
                 </tr>
                 <tr>
-                  <td class="text-center">7</td>
-                  <td class="txt-oflo">Helping Hands</td>
+                  <td className="text-center">4</td>
+                  <td className="txt-oflo">Medical Pro</td>
                   <td>
-                    <span class="badge badge-warning badge-pill">member</span>
+                    <span className="badge badge-danger badge-pill">tax</span>
                   </td>
-                  <td class="txt-oflo">April 22, 2017</td>
+                  <td className="txt-oflo">April 20, 2017</td>
                   <td>
-                    <span class="text-success">$64</span>
+                    <span className="text-danger">-$24</span>
                   </td>
                 </tr>
                 <tr>
-                  <td class="text-center">8</td>
-                  <td class="txt-oflo">Ample Admin</td>
+                  <td className="text-center">5</td>
+                  <td className="txt-oflo">Hosting press html</td>
                   <td>
-                    <span class="badge badge-info badge-pill">extended</span>
+                    <span className="badge badge-success badge-pill">sale</span>
                   </td>
-                  <td class="txt-oflo">April 19, 2017</td>
+                  <td className="txt-oflo">April 21, 2017</td>
                   <td>
-                    <span class="text-info">$1250</span>
+                    <span className="text-success">$24</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="text-center">6</td>
+                  <td className="txt-oflo">Digital Agency PSD</td>
+                  <td>
+                    <span className="badge badge-success badge-pill">sale</span>{" "}
+                  </td>
+                  <td className="txt-oflo">April 23, 2017</td>
+                  <td>
+                    <span className="text-danger">-$14</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="text-center">7</td>
+                  <td className="txt-oflo">Helping Hands</td>
+                  <td>
+                    <span className="badge badge-warning badge-pill">member</span>
+                  </td>
+                  <td className="txt-oflo">April 22, 2017</td>
+                  <td>
+                    <span className="text-success">$64</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="text-center">8</td>
+                  <td className="txt-oflo">Ample Admin</td>
+                  <td>
+                    <span className="badge badge-info badge-pill">extended</span>
+                  </td>
+                  <td className="txt-oflo">April 19, 2017</td>
+                  <td>
+                    <span className="text-info">$1250</span>
                   </td>
                 </tr>
               </tbody>

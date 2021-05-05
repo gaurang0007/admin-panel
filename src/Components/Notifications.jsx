@@ -16,14 +16,14 @@ const Notifications = () => {
           }}
         >
           <li>
-            <div class="drop-title" style={{ fontWeight: "500" }}>
+            <div className="drop-title" style={{ fontWeight: "500" }}>
               Notifications
             </div>
           </li>
           <hr />
           <li>
             <div
-              class="message-center ps ps--theme_default"
+              className="message-center ps ps--theme_default"
               style={{
                 position: "relative",
                 height: "385px",
@@ -32,7 +32,7 @@ const Notifications = () => {
             >
               <div className="d-flex">
                 <div
-                  class="btn btn-danger btn-circle "
+                  className="btn btn-danger btn-circle "
                   style={{
                     borderRadius: "50%",
                     width: "40px",
@@ -42,10 +42,10 @@ const Notifications = () => {
                     marginTop: "15px",
                   }}
                 >
-                  <i class="fa fa-link"></i>
+                  <i className="fa fa-link"></i>
                 </div>
                 <div
-                  class="mail-contnet"
+                  className="mail-contnet"
                   style={{
                     width: "100%",
                     paddingLeft: "15px",
@@ -54,13 +54,13 @@ const Notifications = () => {
                 >
                   <p style={{ margin: "0px 0px" }}>Luanch Admin</p>
                   <span
-                    class="mail-desc"
+                    className="mail-desc"
                     style={{ fontSize: "14px", color: "#212529" }}
                   >
                     Just see the my new admin!
                   </span>
                   <p
-                    class="time"
+                    className="time"
                     style={{ fontSize: "12px", color: "#212529" }}
                   >
                     9:30 AM
@@ -71,7 +71,7 @@ const Notifications = () => {
 
               <div className="d-flex">
                 <div
-                  class="btn btn-danger btn-circle "
+                  className="btn btn-danger btn-circle "
                   style={{
                     borderRadius: "50%",
                     width: "40px",
@@ -81,10 +81,10 @@ const Notifications = () => {
                     marginTop: "15px",
                   }}
                 >
-                  <i class="fa fa-calendar"></i>
+                  <i className="fa fa-calendar"></i>
                 </div>
                 <div
-                  class="mail-contnet"
+                  className="mail-contnet"
                   style={{
                     width: "75%",
                     paddingLeft: "15px",
@@ -93,7 +93,7 @@ const Notifications = () => {
                 >
                   <p style={{ margin: "0px 0px" }}>Event today</p>
                   <span
-                    class="mail-desc"
+                    className="mail-desc"
                     style={{
                       fontSize: "14px",
                       color: "#212529",
@@ -105,7 +105,7 @@ const Notifications = () => {
                     Just a remainder you have event
                   </span>
                   <p
-                    class="time"
+                    className="time"
                     style={{ fontSize: "12px", color: "#212529" }}
                   >
                     9:10 AM
@@ -115,7 +115,7 @@ const Notifications = () => {
               <hr className="mt-0" />
               <div className="d-flex">
                 <div
-                  class="btn btn-danger btn-circle "
+                  className="btn btn-danger btn-circle "
                   style={{
                     borderRadius: "50%",
                     width: "40px",
@@ -125,10 +125,10 @@ const Notifications = () => {
                     marginTop: "15px",
                   }}
                 >
-                  <i class="fa fa-cog"></i>
+                  <i className="fa fa-cog"></i>
                 </div>
                 <div
-                  class="mail-contnet"
+                  className="mail-contnet"
                   style={{
                     width: "75%",
                     paddingLeft: "15px",
@@ -137,7 +137,7 @@ const Notifications = () => {
                 >
                   <p style={{ margin: "0px 0px" }}>Settings</p>
                   <span
-                    class="mail-desc"
+                    className="mail-desc"
                     style={{
                       fontSize: "14px",
                       color: "#212529",
@@ -146,7 +146,7 @@ const Notifications = () => {
                     You can custamize tamplate
                   </span>
                   <p
-                    class="time"
+                    className="time"
                     style={{ fontSize: "12px", color: "#212529" }}
                   >
                     9:08 AM
@@ -157,7 +157,7 @@ const Notifications = () => {
 
               <div className="d-flex">
                 <div
-                  class="btn btn-danger btn-circle "
+                  className="btn btn-danger btn-circle "
                   style={{
                     borderRadius: "50%",
                     width: "40px",
@@ -167,10 +167,10 @@ const Notifications = () => {
                     marginTop: "15px",
                   }}
                 >
-                  <i class="fa fa-user"></i>{" "}
+                  <i className="fa fa-user"></i>{" "}
                 </div>
                 <div
-                  class="mail-contnet"
+                  className="mail-contnet"
                   style={{
                     width: "75%",
                     paddingLeft: "15px",
@@ -179,13 +179,13 @@ const Notifications = () => {
                 >
                   <p style={{ margin: "0px 0px" }}>Pavan Kumar</p>
                   <span
-                    class="mail-desc"
+                    className="mail-desc"
                     style={{ fontSize: "14px", color: "#212529" }}
                   >
                     Just see the my admin!
                   </span>
                   <p
-                    class="time"
+                    className="time"
                     style={{ fontSize: "12px", color: "#212529" }}
                   >
                     9:02 AM
@@ -196,12 +196,12 @@ const Notifications = () => {
             </div>
           </li>
           <li>
-            <div class=" text-center ">
+            <div className=" text-center ">
               {" "}
               <strong style={{ fontWeight: "450" }}>
                 Check all notifications
               </strong>{" "}
-              <i class="fa fa-angle-right"></i>{" "}
+              <i className="fa fa-angle-right"></i>{" "}
             </div>
           </li>
         </ul>

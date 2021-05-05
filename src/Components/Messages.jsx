@@ -6,16 +6,16 @@ import SingleMessage from "./SingleMessage";
 const Messages = () => {
   return (
     <div className="col-md-4">
-      <div class="card" style={{ borderRadius: "0px", border: "none" }}>
-        <div class="card-body">
+      <div className="card" style={{ borderRadius: "0px", border: "none" }}>
+        <div className="card-body">
           <h5
-            class="card-title"
+            className="card-title"
             style={{ fontSize: "18px", fontWeight: "500" }}
           >
             YOU HAVE 5 NEW MESSAGES
           </h5>
           <div
-            class="message-box ps ps--theme_default ps--active-y"
+            className="message-box ps ps--theme_default ps--active-y"
             id="msg"
             style={{
               height: "440px",
@@ -24,7 +24,7 @@ const Messages = () => {
             }}
             data-ps-id="76bfa3b8-0012-f94c-dd64-2ac2703c23da"
           >
-            <div class="message-widget message-scroll ">
+            <div className="message-widget message-scroll ">
               <SingleMessage
                 profile={img1}
                 name="Pavan Kumar"

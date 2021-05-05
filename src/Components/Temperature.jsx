@@ -7,18 +7,18 @@ const Temperature = () => {
       <div className="col-md-12">
         <div className="card wether">
           <div className="card-body">
-            <div class="row weather">
-              <div class="col-6 m-t-40">
+            <div className="row weather">
+              <div className="col-6 m-t-40">
                 <h1>&nbsp;</h1>
                 <br />
-                <div class="display-4">
+                <div className="display-4">
                   <b>
                     73
                     <sup>°F</sup>
                   </b>
                 </div>
                 <p
-                  class="text-white"
+                  className="text-white"
                   style={{
                     fontSize: "14px",
                     marginBottom: "0px",
@@ -28,10 +28,10 @@ const Temperature = () => {
                   AHMEDABAD, INDIA
                 </p>
               </div>
-              <div class="col-6 text-right">
+              <div className="col-6 text-right">
                 <div>
                   <h1
-                    class="m-b-"
+                    className="m-b-"
                     style={{
                       transform: "scale(2)",
                       margin: "-20px 35% 17px 0px",
@@ -41,7 +41,7 @@ const Temperature = () => {
                   </h1>
                 </div>
                 <p
-                  class="text-white"
+                  className="text-white"
                   style={{ fontSize: "14px", marginBottom: "0px" }}
                 >
                   SUNNEY DAY

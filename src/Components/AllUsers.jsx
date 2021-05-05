@@ -20,8 +20,13 @@ const AllUsers = (props) => {
               Add User
             </button>
           </NavLink>
+          <NavLink to="/home">
+            <button className="btn btn-success" style={{ textAlign: "center", float:'right' }}>
+              Back to Dashboard
+            </button>
+          </NavLink>
         </div>
-        <table class="table container" style={{ backgroundColor: "white" }}>
+        <table className="table container" style={{ backgroundColor: "white" }}>
           <thead>
             <tr style={{ textAlign: "center" }}>
               <th>Id</th>

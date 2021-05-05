@@ -6,7 +6,6 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
 } from "recharts";
 
@@ -77,13 +76,13 @@ const Chart = () => {
                   fontSize: "13px",
                 }}
               >
-                <i class="fa fa-circle" style={{ color: "#01C0C8" }}></i>&nbsp;
+                <i className="fa fa-circle" style={{ color: "#01C0C8" }}></i>&nbsp;
                 <p style={{ marginTop: "-5px" }}>Iphone</p>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <i class="fa fa-circle" style={{ color: "#FB9678" }}></i>&nbsp;
+                <i className="fa fa-circle" style={{ color: "#FB9678" }}></i>&nbsp;
                 <p style={{ marginTop: "-5px" }}>Ipad</p>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <i class="fa fa-circle" style={{ color: "#AB8CE4" }}></i>&nbsp;
+                <i className="fa fa-circle" style={{ color: "#AB8CE4" }}></i>&nbsp;
                 <p style={{ marginTop: "-5px" }}>Ipad</p>
               </div>
             </div>
@@ -101,17 +100,14 @@ const Chart = () => {
                 <CartesianGrid strokeDasharray="3 3 3" vertical={false} />
                 <XAxis
                   dataKey="name"
-                  dataKey="name"
                   axisLine={false}
-                  tick={{ fill: "gray" }}
-                  tick={{ fontSize: 12 }}
+                  tick={{ fill: "gray" ,fontSize : 12}}
                   tickLine={false}
                   dy={7}
                   activeDot={{ r: 5 }}
                 />
                 <YAxis
-                  tick={{ fill: "gray" }}
-                  tick={{ fontSize: 12 }}
+                  tick={{ fill: "gray", fontSize : 12 }}
                   tickCount={77}
                   interval={18}
                   axisLine={false}

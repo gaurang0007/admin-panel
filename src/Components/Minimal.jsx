@@ -82,7 +82,7 @@ const Minimal = () => {
         <Chat />
       </div>
 
-      <footer class="footer">© 2021 Adminpanal by Gaurang Ghadiya</footer>
+      <footer className="footer">© 2021 Adminpanal by Gaurang Ghadiya</footer>
     </div>
   );
 };

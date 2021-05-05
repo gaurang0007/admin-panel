@@ -3,3 +3,6 @@ export const ADD_USER = "ADD_USER";
 export const DELETE_USER = "DELETE_USER";
 export const UPDATE = "UPDATE";
 export const SAVE_UPDATE = "SAVE_UPDATE";
+export const LOG_OUT = "LOG_OUT";
+
+

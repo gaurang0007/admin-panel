@@ -1,7 +1,5 @@
 import React from 'react'
 import Minimal from './Minimal';
-import Navbar from './Navbar';
-import Sidebar from './Sidebar';
 
 const Home = (props) => {
     return (

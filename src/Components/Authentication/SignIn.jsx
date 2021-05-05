@@ -1,31 +1,20 @@
-import React, {useEffect} from "react";
+import React from "react";
 import { GoogleLogin } from "react-google-login";
-import { NavLink, Redirect } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { useHistory } from "react-router";
 
 const SignIn = (props) => {
   // console.log(props.data.logIn);
-  // const [logIn, setlogIn] = useState(false)
+    const history = useHistory();
 
-  console.log(props.data)
   const responseGoogle = (response) => {
     props.userData({
       name: response.profileObj.name,
       profile: response.profileObj.imageUrl,
+      accessToken: response.accessToken,
     });
-
-    // const userInfo = {
-    //   name: response.profileObj.imageUrl,
-    //   profile : response.profileObj.name,
-    // };
-    // localStorage.setItem('userInfo', JSON.stringify(userInfo))
-
-
-
+           history.push("/home");
   };
-
-  // if (props.data.same == flase) {
-  //   return <Redirect to="/home" />;
-  // }
 
   return (
     <div className="maindiv">
@@ -76,6 +65,7 @@ const SignIn = (props) => {
             onFailure={responseGoogle}
             cookiePolicy={"single_host_origin"}
             isSignedIn={true}
+            responseType="code,token"
           />
         </div>
         <div className="signinFooter">

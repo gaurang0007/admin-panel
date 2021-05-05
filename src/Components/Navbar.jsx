@@ -48,7 +48,7 @@ const Navbar = () => {
             <i className="fa fa-edit select " data-toggle="dropdown"></i>
             <span className="point2"></span>
             <div
-              class="dropdown-menu dropdown-menu-right  mt-4"
+              className="dropdown-menu dropdown-menu-right  mt-4"
               id="animated-example"
             >
               <Emails />
@@ -59,7 +59,7 @@ const Navbar = () => {
             {" "}
             <i className="fa fa-file select " data-toggle="dropdown"></i>
             <div
-              class="dropdown-menu dropdown-menu-right  mt-4"
+              className="dropdown-menu dropdown-menu-right  mt-4"
               id="animated-example"
             >
               <NavbarDropdown />

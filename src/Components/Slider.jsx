@@ -28,19 +28,19 @@ const Slider = () => {
                 >
                   My Acting blown Your Mind and you also laugh at the moment
                 </h4>
-                <div class="d-flex">
+                <div className="d-flex">
                   <span>
                     <img
                       style={{ borderRadius: "50%" }}
                       src={img1}
                       alt="user"
                       width="50"
-                      class="img-circle"
+                      className="img-circle"
                     />
                   </span>
                   <span style={{ marginLeft: "10px" }}>
                     <h4
-                      class="text-white"
+                      className="text-white"
                       style={{
                         fontSize: "18px",
                         marginBottom: "0px",
@@ -49,7 +49,7 @@ const Slider = () => {
                     >
                       Govinda
                     </h4>
-                    <p class="text-white" style={{ fontSize: "15px" }}>
+                    <p className="text-white" style={{ fontSize: "15px" }}>
                       Actor
                     </p>
                   </span>
@@ -66,19 +66,19 @@ const Slider = () => {
                 >
                   My Acting blown Your Mind and you also laugh at the moment
                 </h4>
-                <div class="d-flex no-block">
+                <div className="d-flex no-block">
                   <span>
                     <img
                       style={{ borderRadius: "50%" }}
                       src={img2}
                       alt="user"
                       width="50"
-                      class="img-circle"
+                      className="img-circle"
                     />
                   </span>
                   <span style={{ marginLeft: "10px" }}>
                     <h4
-                      class="text-white"
+                      className="text-white"
                       style={{
                         fontSize: "18px",
                         marginBottom: "0px",
@@ -87,7 +87,7 @@ const Slider = () => {
                     >
                       Govinda
                     </h4>
-                    <p class="text-white" style={{ fontSize: "15px" }}>
+                    <p className="text-white" style={{ fontSize: "15px" }}>
                       Actor
                     </p>
                   </span>
@@ -105,19 +105,19 @@ const Slider = () => {
                 >
                   My Acting blown Your Mind and you also laugh at the moment
                 </h4>
-                <div class="d-flex no-block">
+                <div className="d-flex no-block">
                   <span>
                     <img
                       style={{ borderRadius: "50%" }}
                       src={img3}
                       alt="user"
                       width="50"
-                      class="img-circle"
+                      className="img-circle"
                     />
                   </span>
                   <span style={{ marginLeft: "10px" }}>
                     <h4
-                      class="text-white"
+                      className="text-white"
                       style={{
                         fontSize: "18px",
                         marginBottom: "0px",
@@ -126,7 +126,7 @@ const Slider = () => {
                     >
                       Govinda
                     </h4>
-                    <p class="text-white" style={{ fontSize: "15px" }}>
+                    <p className="text-white" style={{ fontSize: "15px" }}>
                       Actor
                     </p>
                   </span>

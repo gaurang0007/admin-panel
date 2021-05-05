@@ -78,18 +78,18 @@ const ToDoList = () => {
     <div className="col-md-4">
       <div className="card" style={{ borderRadius: "0px", border: "none" }}>
         <div className="card-body">
-          <div class="d-flex no-block align-items-center">
+          <div className="d-flex no-block align-items-center">
             <div>
               <h5
-                class="card-title"
+                className="card-title"
                 style={{ fontSize: "18px", fontWeight: "500" }}
               >
                 TO DO LIST
               </h5>
             </div>
-            <div class="ml-auto">
+            <div className="ml-auto">
               <button
-                class="pull-right listbtn"
+                className="pull-right listbtn"
                 data-toggle="modal"
                 data-target="#myModal"
               >
@@ -102,7 +102,7 @@ const ToDoList = () => {
             </div>
           </div>
           <ul
-            class="list-group mt-3 d-flex "
+            className="list-group mt-3 d-flex "
             style={{
               height: "420px",
               position: "relative",
@@ -110,16 +110,16 @@ const ToDoList = () => {
               border: "none",
             }}
           >
-            <li class="ml-1" data-role="task ">
-              <div class="custom-control custom-checkbox d-flex">
+            <li className="ml-1" data-role="task ">
+              <div className="custom-control custom-checkbox d-flex">
                 <input
                   type="checkbox"
-                  class="custom-control-input"
+                  className="custom-control-input"
                   id="customCheck"
                 />
                 <label
-                  class="custom-control-label"
-                  for="customCheck"
+                  className="custom-control-label"
+                  htmlFor="customCheck"
                   id="check"
                   onClick={clickCheckbox}
                   style={{ fontSize: "14px", width: "71%" }}
@@ -134,7 +134,7 @@ const ToDoList = () => {
                 </span>
               </div>
               <ul
-                class="assignedto d-flex mt-2"
+                className="assignedto d-flex mt-2"
                 style={{ listStyleType: "none", paddingLeft: "25px" }}
               >
                 <li>
@@ -175,28 +175,28 @@ const ToDoList = () => {
               </ul>
             </li>
             <br />
-            <li class="ml-1" data-role="task">
-              <div class="custom-control custom-checkbox d-flex">
+            <li className="ml-1" data-role="task">
+              <div className="custom-control custom-checkbox d-flex">
                 <input
                   type="checkbox"
-                  class="custom-control-input"
+                  className="custom-control-input"
                   id="customCheck1"
                 />
                 <label
-                  class="custom-control-label"
-                  for="customCheck1"
+                  className="custom-control-label"
+                  htmlFor="customCheck1"
                   style={{ fontSize: "14px", width: "71%" }}
                   id="check2"
                   onClick={clickCheckbox2}
                 >
                   <span>Lorem Ipsum is simply dummy text of the printing</span>
                 </label>
-                <span class="badge2" id="checkBadge2">
+                <span className="badge2" id="checkBadge2">
                   1 week
                 </span>
               </div>
               <div
-                class="item-date"
+                className="item-date"
                 style={{
                   paddingLeft: "30px",
                   fontSize: "12px",
@@ -208,28 +208,28 @@ const ToDoList = () => {
               </div>
             </li>
             <br />
-            <li class="ml-1" data-role="task">
-              <div class="custom-control custom-checkbox d-flex">
+            <li className="ml-1" data-role="task">
+              <div className="custom-control custom-checkbox d-flex">
                 <input
                   type="checkbox"
-                  class="custom-control-input"
+                  className="custom-control-input"
                   id="customCheck2"
                 />
                 <label
-                  class="custom-control-label"
-                  for="customCheck2"
+                  className="custom-control-label"
+                  htmlFor="customCheck2"
                   style={{ fontSize: "14px", width: "71%" }}
                   id="check3"
                   onClick={clickCheckbox3}
                 >
                   <span>Give Purchase report to</span>{" "}
                 </label>
-                <span class="badge3" id="checkBadge3">
+                <span className="badge3" id="checkBadge3">
                   Yesterday
                 </span>
               </div>
               <ul
-                class="assignedto d-flex mt-2"
+                className="assignedto d-flex mt-2"
                 style={{ listStyleType: "none", paddingLeft: "25px" }}
               >
                 <li>
@@ -258,28 +258,28 @@ const ToDoList = () => {
               </ul>
             </li>
             <br />
-            <li class="ml-1" data-role="task">
-              <div class="custom-control custom-checkbox d-flex">
+            <li className="ml-1" data-role="task">
+              <div className="custom-control custom-checkbox d-flex">
                 <input
                   type="checkbox"
-                  class="custom-control-input"
+                  className="custom-control-input"
                   id="customCheck3"
                 />
                 <label
-                  class="custom-control-label"
-                  for="customCheck3"
+                  className="custom-control-label"
+                  htmlFor="customCheck3"
                   style={{ fontSize: "14px", width: "71%" }}
                   id="check4"
                   onClick={clickCheckbox4}
                 >
                   <span>Lorem Ipsum is simply dummy text of the printing </span>{" "}
                 </label>{" "}
-                <span class="badge4" id="checkBadge4">
+                <span className="badge4" id="checkBadge4">
                   2 weeks
                 </span>
               </div>
               <div
-                class="item-date"
+                className="item-date"
                 style={{
                   paddingLeft: "30px",
                   fontSize: "12px",
@@ -291,28 +291,28 @@ const ToDoList = () => {
               </div>
             </li>
             <br />
-            <li class="ml-1" data-role="task">
-              <div class="custom-control custom-checkbox d-flex">
+            <li className="ml-1" data-role="task">
+              <div className="custom-control custom-checkbox d-flex">
                 <input
                   type="checkbox"
-                  class="custom-control-input"
+                  className="custom-control-input"
                   id="customCheck4"
                 />
                 <label
-                  class="custom-control-label"
-                  for="customCheck4"
+                  className="custom-control-label"
+                  htmlFor="customCheck4"
                   style={{ fontSize: "14px", width: "71%" }}
                   id="check5"
                   onClick={clickCheckbox5}
                 >
                   <span>Give Purchase report to</span>{" "}
                 </label>
-                <span class="badge5" id="checkBadge5">
+                <span className="badge5" id="checkBadge5">
                   Yesterday
                 </span>
               </div>
               <ul
-                class="assignedto d-flex mt-2"
+                className="assignedto d-flex mt-2"
                 style={{ listStyleType: "none", paddingLeft: "25px" }}
               >
                 <li>
@@ -344,43 +344,43 @@ const ToDoList = () => {
         </div>
       </div>
       <div
-        class="modal fade"
+        className="modal fade"
         id="myModal"
         role="dialog"
         style={{ display: "none" }}
         aria-hidden="true"
       >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">
+            <div className="modal-header">
               <h4
-                class="modal-title"
+                className="modal-title"
                 style={{ fontSize: "19px", fontWeight: "350" }}
               >
                 Add Task
               </h4>
               <button
                 type="button"
-                class="close"
+                className="close"
                 data-dismiss="modal"
                 aria-label="Close"
               >
                 <span aria-hidden="true">×</span>
               </button>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               <form>
-                <div class="form-group">
+                <div className="form-group">
                   <label>Task name</label>
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Enter Task Name"
                   />{" "}
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                   <label>Assign to</label>
-                  <select class="custom-select form-control pull-right">
+                  <select className="custom-select form-control pull-right">
                     <option selected="">Gaurang</option>
                     <option value="1">Abhishek</option>
                     <option value="2">Jaynesh</option>
@@ -390,17 +390,17 @@ const ToDoList = () => {
                 </div>
               </form>
             </div>
-            <div class="modal-footer">
+            <div className="modal-footer">
               <button
                 type="button"
-                class="btn btn-secondary"
+                className="btn btn-secondary"
                 data-dismiss="modal"
               >
                 Close
               </button>
               <button
                 type="button"
-                class="btn btn-success"
+                className="btn btn-success"
                 data-dismiss="modal"
               >
                 Submit

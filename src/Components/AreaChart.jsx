@@ -60,9 +60,9 @@ const AreaChart1 = () => {
       <div className="col-lg-8 col-md-12">
         <div className="card" style={{ borderRadius: "0px", border: "none" }}>
           <div className="card-body">
-            <div class="d-flex m-b-40 align-items-center no-block">
+            <div className="d-flex m-b-40 align-items-center no-block">
               <h5
-                class="card-title "
+                className="card-title "
                 style={{ fontSize: "18px", fontWeight: "500" }}
               >
                 SALES DIFFERENCE
@@ -74,10 +74,10 @@ const AreaChart1 = () => {
                   fontSize: "13px",
                 }}
               >
-                <i class="fa fa-circle" style={{ color: "#01C0C8" }}></i>&nbsp;
+                <i className="fa fa-circle" style={{ color: "#01C0C8" }}></i>&nbsp;
                 <p style={{ marginTop: "-5px" }}>SITE A</p>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <i class="fa fa-circle" style={{ color: "#FB9678" }}></i>&nbsp;
+                <i className="fa fa-circle" style={{ color: "#FB9678" }}></i>&nbsp;
                 <p style={{ marginTop: "-5px" }}>SITE B</p>
               </div>
             </div>
@@ -98,15 +98,13 @@ const AreaChart1 = () => {
                   <XAxis
                     dataKey="name"
                     axisLine={false}
-                    tick={{ fill: "gray" }}
-                    tick={{ fontSize: 12 }}
+                    tick={{ fill: "gray",fontSize: 12 }}
                     tickLine={false}
                     dy={7}
                     activeDot={{ r: 5 }}
                   />
                   <YAxis
-                    tick={{ fill: "gray" }}
-                    tick={{ fontSize: 12 }}
+                    tick={{ fill: "gray", fontSize : 12 }}
                     tickCount={77}
                     interval={18}
                     axisLine={false}

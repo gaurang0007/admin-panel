@@ -1,4 +1,4 @@
-import { ADD_USER, DELETE_USER, SAVE_UPDATE, UPDATE, USER_DATA } from "./ActionTypes";
+import { ADD_USER, DELETE_USER, LOG_OUT, SAVE_UPDATE, UPDATE, USER_DATA } from "./ActionTypes";
 
 export const userData = (data) => {
   return {
@@ -31,6 +31,13 @@ export const update = (data) => {
 export const saveUpdate = (data) => {
   return {
     type: SAVE_UPDATE,
+    data: data,
+  };
+};
+
+export const logOut = (data) => {
+  return {
+    type: LOG_OUT,
     data: data,
   };
 };

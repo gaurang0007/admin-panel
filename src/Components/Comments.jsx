@@ -8,11 +8,11 @@ const Comments = () => {
   return (
     <div className="col-lg-6">
       <div className="card " style={{ borderRadius: "0px", border : 'none' }}>
-        <div class="card-body">
-          <h5 class="card-title">Recent Comments</h5>
+        <div className="card-body">
+          <h5 className="card-title">Recent Comments</h5>
         </div>
         <div
-          class="card-body"
+          className="card-body"
           id="comment"
           style={{ position: "relative", height: "565px", overflowY: "scroll" }}
         >

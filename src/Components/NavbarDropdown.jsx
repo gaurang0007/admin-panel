@@ -6,49 +6,49 @@ import carousel3 from "../assets/carousel3.jpg";
 const NavbarDropdown = () => {
   return (
     <ul
-      class="mega-dropdown-menu row"
+      className="mega-dropdown-menu row"
       style={{ listStyleType: "none", marginLeft: "-21px" }}
     >
-      <li class="col-lg-3 col-xlg-2 m-b-30">
+      <li className="col-lg-3 col-xlg-2 m-b-30">
         <h4
-          class="m-b-20"
+          className="m-b-20"
           style={{ fontSize: "18px", fontWeight: "375", margin: "20px 0px" }}
         >
           CAROUSEL
         </h4>
         <div
           id="carouselExampleControls"
-          class="carousel slide"
+          className="carousel slide"
           data-ride="carousel"
         >
           <div
-            class="carousel-inner"
+            className="carousel-inner"
             role="listbox"
             style={{ marginLeft: "-13px" }}
           >
-            <div class="carousel-item active">
-              <div class="container">
+            <div className="carousel-item active">
+              <div className="container">
                 {" "}
                 <img
-                  class="d-block img-fluid"
+                  className="d-block img-fluid"
                   src={carousel1}
                   alt="First slide"
                 />
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="container">
+            <div className="carousel-item">
+              <div className="container">
                 <img
-                  class="d-block img-fluid"
+                  className="d-block img-fluid"
                   src={carousel2}
                   alt="Second slide"
                 />
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="container">
+            <div className="carousel-item">
+              <div className="container">
                 <img
-                  class="d-block img-fluid"
+                  className="d-block img-fluid"
                   src={carousel3}
                   alt="Third slide"
                 />
@@ -56,7 +56,7 @@ const NavbarDropdown = () => {
             </div>
           </div>
           {/* <a
-            class="carousel-control-prev"
+            className="carousel-control-prev"
             href="#carouselExampleControls"
             role="button"
             data-slide="prev"
@@ -64,13 +64,13 @@ const NavbarDropdown = () => {
           >
             {" "}
             <span
-              class="carousel-control-prev-icon"
+              className="carousel-control-prev-icon"
               aria-hidden="true"
             ></span>{" "}
-            <span class="sr-only">Previous</span>{" "}
+            <span className="sr-only">Previous</span>{" "}
           </a>
           <a
-            class="carousel-control-next"
+            className="carousel-control-next"
             href="#carouselExampleControls"
             role="button"
             data-slide="next"
@@ -78,29 +78,29 @@ const NavbarDropdown = () => {
           >
             {" "}
             <span
-              class="carousel-control-next-icon"
+              className="carousel-control-next-icon"
               aria-hidden="true"
             ></span>{" "}
-            <span class="sr-only">Next</span>{" "}
+            <span className="sr-only">Next</span>{" "}
           </a> */}
         </div>
       </li>
-      <li class="col-lg-3 m-b-30">
+      <li className="col-lg-3 m-b-30">
         <h4
-          class="m-b-20"
+          className="m-b-20"
           style={{ fontSize: "18px", fontWeight: "375", margin: "20px 0px" }}
         >
           ACCORDION
         </h4>
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
+        <div className="accordion" id="accordionExample">
+          <div className="accordion-item">
             <h2
-              class="accordion-header"
+              className="accordion-header"
               id="headingOne"
               style={{ margin: "-5px" }}
             >
               <button
-                class="accordion-button"
+                className="accordion-button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
                 aria-expanded="true"
@@ -111,23 +111,23 @@ const NavbarDropdown = () => {
             </h2>
             <div
               id="collapseOne"
-              class="accordion-collapse collapse show"
+              className="accordion-collapse collapse show"
               aria-labelledby="headingOne"
               data-bs-parent="#accordionExample"
             >
-              <div class="card-body" style={{ fontWeight: "350" }}>
+              <div className="card-body" style={{ fontWeight: "350" }}>
                 Anim pariatur cliche reprehenderit, enim eiusmod high.
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div className="accordion-item">
             <h2
-              class="accordion-header"
+              className="accordion-header"
               id="headingTwo"
               style={{ margin: "-5px" }}
             >
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -139,23 +139,23 @@ const NavbarDropdown = () => {
             </h2>
             <div
               id="collapseTwo"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample"
             >
-              <div class="card-body" style={{ fontWeight: "350" }}>
+              <div className="card-body" style={{ fontWeight: "350" }}>
                 Anim pariatur cliche reprehenderit, enim eiusmod high.
               </div>
             </div>
           </div>
-          <div class="accordion-item">
+          <div className="accordion-item">
             <h2
-              class="accordion-header"
+              className="accordion-header"
               id="headingThree"
               style={{ margin: "-5px" }}
             >
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -167,87 +167,87 @@ const NavbarDropdown = () => {
             </h2>
             <div
               id="collapseThree"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingThree"
               data-bs-parent="#accordionExample"
             >
-              <div class="card-body" style={{ fontWeight: "350" }}>
+              <div className="card-body" style={{ fontWeight: "350" }}>
                 Anim pariatur cliche reprehenderit, enim eiusmod high.
               </div>
             </div>
           </div>
         </div>
       </li>
-      <li class="col-lg-3  m-b-30">
+      <li className="col-lg-3  m-b-30">
         <h4
-          class="m-b-20"
+          className="m-b-20"
           style={{ fontSize: "18px", fontWeight: "375", margin: "20px 0px" }}
         >
           CONTACT US
         </h4>
         <form>
-          <div class="form-group">
+          <div className="form-group">
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="exampleInputname1"
               placeholder="Enter Name"
             />{" "}
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <input
               type="email"
-              class="form-control"
+              className="form-control"
               placeholder="Enter email"
             />{" "}
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <textarea
-              class="form-control"
+              className="form-control"
               id="exampleTextarea"
               rows="3"
               placeholder="Message"
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-info">
+          <button type="submit" className="btn btn-info">
             Submit
           </button>
         </form>
       </li>
-      <li class="col-lg-3 col-xlg-4 m-b-30">
+      <li className="col-lg-3 col-xlg-4 m-b-30">
         <h4
-          class="m-b-20"
+          className="m-b-20"
           style={{ fontSize: "18px", fontWeight: "375", margin: "20px 0px" }}
         >
           List style
         </h4>
         <ul
-          class="lastlist"
+          className="lastlist"
           style={{ listStyleType: "none", padding: "0px", fontWeight: "350" }}
         >
           <li className="liststyle">
             <p>
-              <i class="fa fa-check text-success"></i> You can give link
+              <i className="fa fa-check text-success"></i> You can give link
             </p>
           </li>
           <li className="liststyle">
             <p>
-              <i class="fa fa-check text-success"></i> Give link
+              <i className="fa fa-check text-success"></i> Give link
             </p>
           </li>
           <li className="liststyle">
             <p>
-              <i class="fa fa-check text-success"></i> Another Give link
+              <i className="fa fa-check text-success"></i> Another Give link
             </p>
           </li>
           <li className="liststyle">
             <p>
-              <i class="fa fa-check text-success"></i> Forth link
+              <i className="fa fa-check text-success"></i> Forth link
             </p>
           </li>
           <li className="liststyle">
             <p>
-              <i class="fa fa-check text-success"></i> Another fifth link
+              <i className="fa fa-check text-success"></i> Another fifth link
             </p>
           </li>
         </ul>

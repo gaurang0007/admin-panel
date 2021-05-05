@@ -1,6 +1,7 @@
 import {
   ADD_USER,
   DELETE_USER,
+  LOG_OUT,
   SAVE_UPDATE,
   UPDATE,
   USER_DATA,
@@ -11,11 +12,18 @@ const initialSatate = {
   userData: [],
   allData: [],
   updateData: [],
+  isLogined: false,
+  accessToken: "",
 };
 export const userReducer = (state = initialSatate, action) => {
   switch (action.type) {
     case USER_DATA:
-      return { ...state, userData: [action.data]};
+      return {
+        ...state,
+        userData: [action.data],
+        isLogined: true,
+        accessToken: action.data.accessToken,
+      };
     case ADD_USER:
       return { ...state, allData: [...state.allData, action.data] };
     case DELETE_USER:
@@ -41,6 +49,13 @@ export const userReducer = (state = initialSatate, action) => {
               }
             : content
         ),
+      };
+    case LOG_OUT:
+      return {
+        ...state,
+        userData: [],
+        isLogined: false,
+        accessToken: '',
       };
 
     default:

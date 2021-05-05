@@ -1,3 +1,5 @@
+
+
 #minimal {
   transition: margin-left 0.5s;
   padding: 16px;
@@ -110,77 +112,29 @@
 
 .sMessage {
   .profile-status1 {
-    z-index: 1;
-    height: 7px;
-    width: 7px;
-    background-color: #00c292;
-    border-radius: 50%;
-    position: absolute;
-    left: 40px;
-    margin-top: 3px;
-    border: 1px solid white;
+    @include status-profile(#00c292);
   }
 
   .profile-status2 {
-    z-index: 1;
-    height: 7px;
-    width: 7px;
-    background-color: #e46a76;
-    border-radius: 50%;
-    position: absolute;
-    left: 40px;
-    margin-top: 3px;
-    border: 1px solid white;
+    @include status-profile(#e46a76);
   }
 
   .profile-status3 {
-    z-index: 1;
-    height: 7px;
-    width: 7px;
-    background-color: #fec107;
-    border-radius: 50%;
-    position: absolute;
-    left: 40px;
-    margin-top: 3px;
-    border: 1px solid white;
+    @include status-profile(#fec107);
   }
 }
 
 .imges {
   .profile-status1 {
-    z-index: 1;
-    height: 8px;
-    width: 8px;
-    background-color: #00c292;
-    border-radius: 50%;
-    position: absolute;
-    left: 32px;
-    margin-top: 15px;
-    border: 1px solid white;
+    @include topProfile(#00c292);
   }
 
   .profile-status2 {
-    z-index: 1;
-    height: 8px;
-    width: 8px;
-    background-color: #e46a76;
-    border-radius: 50%;
-    position: absolute;
-    left: 32px;
-    margin-top: 15px;
-    border: 1px solid white;
+    @include topProfile(#e46a76);
   }
 
   .profile-status3 {
-    z-index: 1;
-    height: 8px;
-    width: 8px;
-    background-color: #fec107;
-    border-radius: 50%;
-    position: absolute;
-    left: 32px;
-    margin-top: 15px;
-    border: 1px solid white;
+    @include topProfile(#fec107);
   }
 }
 .card {
@@ -227,60 +181,21 @@
   background-color: #fb9678;
 }
 
+
 .badge1 {
-  color: white;
-  background-color: #e46a76;
-  height: 20px;
-  border-radius: 1.25rem !important;
-  font-size: 70% !important;
-  font-weight: 400 !important;
-  padding: 3px 10px !important;
-  margin-left: auto;
-  margin-right: 5%;
+  @include badge(white, #e46a76);
 }
 .badge2 {
-  color: black;
-  background-color: #fb9678;
-  height: 20px;
-  border-radius: 1.25rem !important;
-  font-size: 70% !important;
-  font-weight: 400 !important;
-  padding: 3px 10px !important;
-  margin-left: auto;
-  margin-right: 5%;
+  @include badge(black, #fb9678);
 }
 .badge3 {
-  color: white;
-  background-color: #03a9f3;
-  height: 20px;
-  border-radius: 1.25rem !important;
-  font-size: 70% !important;
-  font-weight: 400 !important;
-  padding: 3px 10px !important;
-  margin-left: auto;
-  margin-right: 5%;
+  @include badge(white, #03a9f3);
 }
 .badge4 {
-  color: black;
-  background-color: #fec107;
-  height: 20px;
-  border-radius: 1.25rem !important;
-  font-size: 70% !important;
-  font-weight: 400 !important;
-  padding: 3px 10px !important;
-  margin-left: auto;
-  margin-right: 5%;
+  @include badge(black, #fec107);
 }
 .badge5 {
-  color: white;
-  background-color: #03a9f3;
-  height: 20px;
-  border-radius: 1.25rem !important;
-  font-size: 70% !important;
-  font-weight: 400 !important;
-  padding: 3px 10px !important;
-  margin-left: auto;
-  margin-right: 5%;
+  @include badge(white, #03a9f3);
 }
 
 .lastlist {
@@ -312,8 +227,6 @@
 // ---------------------------------------------------------------------------------------
 
 .animated {
-  // position: absolute;
-  //  margin-left: 51% !important;
   margin-top: 66px !important;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;

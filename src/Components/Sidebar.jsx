@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
 import { NavLink } from "react-router-dom";
-import Emails from "./Emails";
 import OpenProfile from "./OpenProfile";
 
 const Sidebar = (props) => {
-  console.log(props)
+  console.log(props.data)
   const [deshboardDropdown, setdeshboardDropdown] = useState(false);
   const [appsDropdown, setappsDropdown] = useState(false);
   const [inboxDropdown, setinboxDropdown] = useState(false);
@@ -37,17 +36,17 @@ const Sidebar = (props) => {
         </div>
         <div className="partetion">
           <img
-            // src={props.data.userData[0].profile}
+            src={props.data.userData[0].profile}
             alt="profile"
             className="profileImg"
           />
           <div className="profilediv ">
             <p className="profileName" data-toggle="dropdown">
-              {/* {props.data.userData[0].name}&nbsp; */}
+              {props.data.userData[0].name}&nbsp;
               <i className="fa fa-caret-down dropdown"></i>
             </p>
             <div
-              class="dropdown-menu dropdown-menu-right mt-2 flipInY animated1"
+              className="dropdown-menu dropdown-menu-right mt-2 flipInY animated1"
               style={{ marginRight: "40px" }}
               id="animated-example"
             >
@@ -63,14 +62,14 @@ const Sidebar = (props) => {
               }}
             >
               <div className="" onClick={openDropdown}>
-                <i class="fa fa-home icon"></i>
+                <i className="fa fa-home icon"></i>
                 <span className="menu">Dashboard</span>
                 <span className="number">4</span>
                 <i className="fa fa-caret-down dropdown"></i>
               </div>
             </NavLink>
             {deshboardDropdown && (
-              <ul className="dropdownList" area-aria-expanded='false' className='collapse in'>
+              <ul className="dropdownList">
                 <li>
                   <NavLink to="/dashboard">Minimal</NavLink>
                 </li>

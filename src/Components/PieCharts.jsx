@@ -1,6 +1,6 @@
 import React from 'react'
-import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from "recharts";
-import { Sector, Cell} from "recharts";
+import { PieChart, Pie, Tooltip, ResponsiveContainer } from "recharts";
+import {  Cell} from "recharts";
 
 
 
@@ -15,35 +15,35 @@ const PieCharts = () => {
     return (
       <div className="col-md-12 mt-4">
         <div
-          class="card bg-purple text-white"
+          className="card bg-purple text-white"
           style={{
             backgroundColor: "#AB8CE4",
             borderRadius: "0px",
             border: "none",
           }}
         >
-          <div class="card-body">
+          <div className="card-body">
             <h5
-              class="card-title"
+              className="card-title"
               style={{ fontSize: "18px", fontWeight: "500" }}
             >
               VISIT STATASTICS
             </h5>
 
-            <div class="row">
-              <div class="col-6" style={{ marginTop: "40px" }}>
-                <h1 class="text-white" style={{ fontWeight: "350" }}>
+            <div className="row">
+              <div className="col-6" style={{ marginTop: "40px" }}>
+                <h1 className="text-white" style={{ fontWeight: "350" }}>
                   $347
                 </h1>
-                <p class="light_op_text">APRIL 2021</p>
-                <b class="text-white" style={{ fontWeight: "400" }}>
+                <p className="light_op_text">APRIL 2021</p>
+                <b className="text-white" style={{ fontWeight: "400" }}>
                   (150 Sales)
                 </b>
               </div>
-              <div class="col-6">
+              <div className="col-6">
                 <div
                   id="sales1"
-                  class="text-right"
+                  className="text-right"
                   style={{ height: "230px", width: "100%", position:'absolute', top:'-45%', left:'10%' }}
                 >
                   <ResponsiveContainer width="100%" height="100%">
